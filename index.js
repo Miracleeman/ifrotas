@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from Railway + Node!");
+  res.send("Hello from Railways + Node!");
 });
 
 // use process.env.PORT para funcionar no Railway
