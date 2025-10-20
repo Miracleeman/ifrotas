@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 // use process.env.PORT para funcionar no Railway
-const PORT = 3000;
+const PORT = 8080;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
